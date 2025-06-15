@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Meu portfólio</title>
+</head>
+<body>
+
+  <header class="container text-center">
+    <img src="img/avatar-perfilraquel.png" alt="avatar da Raquel" class="rounded-circle" width="150" height="150">
+    <p class="lead">Eu sou Raquel_</p>
+    <h1>Eu amo o mundo aquático</h1>
+    <p>Sou apaixonada por peixes e adoro aprender sobre suas cores, espécies e curiosidades. Conheça alguns dos meus favoritos!</p>
+    <p>Peixes que eu adoro</p>
+    <div>
+      <p class="badge bg-secondary">Peixe Dourado</p>
+      <p class="badge bg-secondary">Peixe Cascudo</p>
+      <p class="badge bg-secondary">Peixinho Preto</p>
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <h2>Informações dos Peixes</h2>
+    <div class="row">
+
+      <!-- Peixe Dourado -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/peixe-dourado.png" class="card-img-top" alt="Imagem do peixe dourado">
+          <div class="card-body">
+            <h5 class="card-title">🐠 Peixe Dourado (Goldfish)</h5>
+            <ul class="list-unstyled">
+              <li><strong>📍 Origem:</strong> China</li>
+              <li><strong>📏 Tamanho:</strong> 15 a 30 cm</li>
+              <li><strong>⏳ Vida:</strong> 10 a 20 anos</li>
+              <li><strong>🌡️ Temperatura:</strong> 18°C a 24°C</li>
+              <li><strong>⚖️ pH ideal:</strong> 6.5 a 7.5</li>
+              <li><strong>🍽️ Alimentação:</strong> Rações, vegetais, insetos</li>
+              <li><strong>🧠 Comportamento:</strong> Pacífico e sociável</li>
+            </ul>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">
+              Veja a curiosidade
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Peixe Cascudo -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/peixe-cascudo.png" class="card-img-top" alt="Imagem do peixe cascudo">
+          <div class="card-body">
+            <h5 class="card-title">🪸 Peixe Cascudo</h5>
+            <ul class="list-unstyled">
+              <li><strong>📍 Origem:</strong> América do Sul</li>
+              <li><strong>📏 Tamanho:</strong> 30 a 50 cm</li>
+              <li><strong>⏳ Vida:</strong> 10 a 15 anos</li>
+              <li><strong>🌡️ Temperatura:</strong> 22°C a 28°C</li>
+              <li><strong>⚖️ pH ideal:</strong> 6.5 a 7.5</li>
+              <li><strong>🍃 Alimentação:</strong> Algas, restos, vegetais</li>
+              <li><strong>🧠 Comportamento:</strong> Vive no fundo, pacífico</li>
+            </ul>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">
+              Veja a curiosidade
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Peixinho Preto -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/peixinho-preto.png" class="card-img-top" alt="Imagem do peixinho preto">
+          <div class="card-body">
+            <h5 class="card-title">⚫ Peixinho Preto (Black Moor)</h5>
+            <ul class="list-unstyled">
+              <li><strong>🎨 Cor:</strong> Preto aveludado</li>
+              <li><strong>📏 Tamanho:</strong> Até 15 cm</li>
+              <li><strong>🌡️ Temperatura:</strong> 18°C a 24°C</li>
+              <li><strong>👀 Olhos:</strong> Grandes e sensíveis</li>
+              <li><strong>🐌 Natação:</strong> Lenta</li>
+              <li><strong>🧠 Comportamento:</strong> Calmo e reconhece o dono</li>
+              <li><strong>⏳ Vida:</strong> Até 15 anos</li>
+            </ul>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">
+              Veja a curiosidade
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modal 1 -->
+  <div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">✨ Curiosidades</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>✨ Curiosidades sobre o Peixe Dourado 
+          🧠 Curiosidade: O peixe dourado tem boa memória!
+
+Ao contrário do mito popular de que os peixes dourados têm apenas 3 segundos de memória, estudos mostram que eles conseguem lembrar de coisas por meses!
+Eles podem reconhecer quem os alimenta, aprender truques simples e até identificar sons.</p>
+          <img src="img/peixe-dourado.png" class="img-fluid w-100" alt="Imagem do peixe dourado">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">✨ Curiosidades</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>✨ Curiosidades sobre o Peixe Cascudo     
+          🐟 Curiosidade: Armadura natural!
+
+O peixe cascudo tem o corpo coberto por placas ósseas, que funcionam como uma armadura natural. Essas placas ajudam a proteger o cascudo de predadores, tornando-o um peixe muito resistente, especialmente no fundo dos rios e aquários onde costuma viver.
+
+Além disso, ele tem uma boca em forma de ventosa, usada para grudar em pedras, troncos e nas paredes dos aquários, ajudando na limpeza de algas!
+          <img src="img/peixe-cascudo.png" class="img-fluid w-100" alt="Imagem do peixe cascudo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">✨ Curiosidades</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>✨ Curiosidade sobre o Peixinho Preto:
+> 👀 Olhos incríveis, mas delicados!
+O Peixinho Preto é famoso por seus olhos grandes e esbugalhados, chamados de "olhos telescópicos". Apesar de chamarem atenção, esses olhos são muito sensíveis à luz forte e a objetos pontiagudos no aquário, então o ideal é manter um ambiente seguro e tranquilo para ele. 🖤🐟
+
+          <img src="img/peixinho-preto.png" class="img-fluid w-100" alt="Imagem do peixinho preto">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container py-5">
+    <h2>Código GitHub</h2>
+    <div>
+      <i class="bi bi-github"></i>
+      <a href="https://github.com/femascheti">GitHub</a>
+    </div>
+    <p class="my-5 text-center">© Copyright 2025. Produzido por Raquel</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
